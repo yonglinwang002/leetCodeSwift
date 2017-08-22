@@ -8,5 +8,12 @@
 
 import Foundation
 
+
+
+
 print("Hello, World!")
 
+let nums = [1,23,4,2]
+let target = 3
+var s = leet001()
+print ("twoSum",s.twoSum(nums, target))
